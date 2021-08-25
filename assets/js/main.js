@@ -53,9 +53,6 @@ let numArr = [5, 22, 15, 100, 55]
 numArr.forEach(num => {
     for (let i = 2; i <= num / 2; i++) {
         if (num % i == 0)
-            show(`${num} laesst sich durch ${i} teilen! Das Ergenis ist ${num / i}`)
+            show(`${num} laesst sich durch ${i} teilen! Das Ergenis ist ${num / i}`);
     }
-
-
 });
-
